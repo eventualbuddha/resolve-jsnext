@@ -1,0 +1,33 @@
+{
+  "name": "resolve-jsnext",
+  "version": "1.0.0",
+  "description": "Resolve node modules, with jsnext support.",
+  "main": "dist/resolve-jsnext.js",
+  "jsnext:main": "index.js",
+  "repository": "eventualbuddha/resolve-jsnext",
+  "scripts": {
+    "test": "eslint . && mocha --compilers js:babel/register test"
+  },
+  "keywords": [
+    "es6",
+    "jsnext",
+    "resolve"
+  ],
+  "author": "Brian Donovan",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "dist/resolve-jsnext.js"
+  ],
+  "dependencies": {
+    "resolve": "^1.1.6"
+  },
+  "devDependencies": {
+    "babel": "^5.0.10",
+    "babel-eslint": "^2.0.2",
+    "eslint": "^0.18.0",
+    "esperanto": "^0.6.27",
+    "magic-string": "^0.4.7",
+    "mocha": "^2.2.3"
+  }
+}
