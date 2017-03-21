@@ -1,5 +1,7 @@
 # resolve-jsnext
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/eventualbuddha/resolve-jsnext.svg)](https://greenkeeper.io/)
+
 It's [resolve], but resolves [jsnext] entry points for packages annotated with
 `jsnext:main` values in `package.json`.
 
